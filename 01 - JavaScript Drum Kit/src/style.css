@@ -8,7 +8,7 @@ body,html {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  
+
 }
 
 /* Container for keys  */
@@ -57,8 +57,15 @@ kbd {
 
 /* styles for dance canvas */
 .canvas{
-  background: #ffc80094;
+  background: #ffc8000a;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
   height: 80vh;
   width: 50%;
   margin: 20px auto;
+  position: absolute;
+  top: 15%;
+  left: 25%;
 }
+
