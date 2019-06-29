@@ -1,23 +1,26 @@
 html {
   font-size: 10px;
-  background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
-  background-size: cover;
+  background-image: url('images/bckgrd.jpeg');
+  background-size: cover; 
 }
 
 body,html {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  
 }
 
+/* Container for keys  */
 .keys {
   display: flex;
   flex: 1;
-  min-height: 100vh;
+  height: fit-content;
   align-items: center;
   justify-content: center;
 }
 
+/* Individual key blocks */
 .key {
   border: .4rem solid black;
   border-radius: .5rem;
@@ -32,6 +35,7 @@ body,html {
   text-shadow: 0 0 .5rem black;
 }
 
+/* Effect for when sound is played */
 .playing {
   transform: scale(1.1);
   border-color: #ffc600;
@@ -43,9 +47,18 @@ kbd {
   font-size: 4rem;
 }
 
+/* Styling for sound names */
 .sound {
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: #ffc600;
+}
+
+/* styles for dance canvas */
+.canvas{
+  background: #ffc80094;
+  height: 80vh;
+  width: 50%;
+  margin: 20px auto;
 }
