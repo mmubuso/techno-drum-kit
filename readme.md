@@ -3,8 +3,8 @@
 General Assembly SEI June 11 - Project 1
 
 
-- Project: https://fervent-murdock-35e87e.netlify.com
-- GitHub: https://github.com/mmubuso/Simon-Game.git
+- Project: https://determined-payne-454368.netlify.com/
+- GitHub: https://github.com/mmubuso/techno-drum-kit.git
 
 ## Overview
 The goal of this assigment was to HTML, CSS, and JavaScript to create a drum kit 
