@@ -4,7 +4,7 @@ Day 01 Drum Kit */
 
 //Variables
 //Array for holding dance gifs
-const dances = ['url("src/images/dancing-1.gif")', 'url("src/images/dancing-2.gif")', 'url("src/images/dancing-3.gif")', 'url("src/images/dancing-4.gif")', 'url("src/images/dancing-5.gif")', 'url("src/images/dancing-6.gif")', 'url("src/images/dancing-7.gif")', 'url("src/images/dancing-8.gif")', 'url("src/images/dancing-9.gif")']
+const dances = ['url("techno-drum-kit/src/images/dancing-1.gif")', 'url("techno-drum-kit/src/images/dancing-2.gif")', 'url("techno-drum-kit/src/images/dancing-3.gif")', 'url("techno-drum-kit/src/images/dancing-4.gif")', 'url("techno-drum-kit/src/images/dancing-5.gif")', 'url("techno-drum-kit/src/images/dancing-6.gif")', 'url("techno-drum-kit/src/images/dancing-7.gif")', 'url("techno-drum-kit/src/images/dancing-8.gif")', 'url("techno-drum-kit/src/images/dancing-9.gif")']
 //Array for holding all nine canvases
 const canvases = []
 //Controls positioning of canvas starting from left side
@@ -22,7 +22,9 @@ for (let i = 0; i < 9; i++) {
 
 // run animation that corresponds with key
 function runDanceAnimation(index) {
+
     canvases[index].style.backgroundImage = dances[index]
+    console.log(canvases[index].style.backgroundImage)
 }
 
 // remove dance animation
