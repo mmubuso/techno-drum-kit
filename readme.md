@@ -1,7 +1,5 @@
 # Techno Drum Kit
 
-General Assembly SEI June 11 - Project 1
-
 
 - Project: https://determined-payne-454368.netlify.com/
 - GitHub: https://github.com/mmubuso/techno-drum-kit.git
